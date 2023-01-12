@@ -47,7 +47,7 @@ return require('packer').startup(function(use)
 
 
     -- colorscheme
-    --use 'Mofiqul/dracula.nvim'
+    use 'Mofiqul/dracula.nvim'
     use ({
         'rose-pine/neovim',
         as = 'rose-pine'

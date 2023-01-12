@@ -1,4 +1,5 @@
-local cs = "rose-pine"
+--local cs = "rose-pine"
+local cs = "dracula"
 
 function ColorPen(color)
     color = color or cs
