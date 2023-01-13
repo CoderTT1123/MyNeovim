@@ -6,6 +6,8 @@ vim.opt.expandtab = true
 vim.opt.swapfile = false
 vim.opt.wrap = false
 vim.g.mapleader = " "
+vim.cmd[[set ts=4]]
+
 
 vim.opt.undofile = true
 vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
