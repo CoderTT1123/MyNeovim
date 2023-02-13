@@ -4,6 +4,7 @@ lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
 vim.cmd[[set nocursorline]]
 -- lvim.colorscheme = "rose-pine"
+lvim.builtin.lualine.style = "default"
 ColorPen("rose-pine")
 -- to disable icons and use a minimalist setup, uncomment the following
 -- lvim.use_icons = false
